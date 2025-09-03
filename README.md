@@ -22,34 +22,36 @@ Perfect for syncing your Spotify library to old iPods or Apple devices.
 
 1. Clone this repo:
    
-   git clone https://github.com/yourname/podspot.git
-   cd podspot
+      git clone https://github.com/yourname/podspot.git
+      cd podspot
 
 2. Install requirements:
 
-  pip install spotdl requests
-  brew install ffmpeg   # macOS
-  sudo apt install ffmpeg   # Linux
+     pip install spotdl requests
+     brew install ffmpeg   # macOS
+     sudo apt install ffmpeg   # Linux
 
 3. Create a Spotify Developer App:
 
-  Go to Spotify Developer Dashboard.
-  Create an app → copy Client ID and Client Secret.
-  Add http://127.0.0.1:8888/callback as a Redirect URI.
-  Paste the credentials into podspot.py.
+     Go to Spotify Developer Dashboard.
+     Create an app → copy Client ID and Client Secret.
+     Add http://127.0.0.1:8888/callback as a Redirect URI.
+     Paste the credentials into podspot.py.
 
 ---
 
 ## 🎵 Usage
 
-Run PodSpot:
-  python3 podspot.py
+   Run PodSpot: python3 podspot.py
 
 
 The first time, you’ll log in via browser.
 After that, just enter a Spotify link or one of these keywords:
+
   https://open.spotify.com/album/... → downloads album
+  
   https://open.spotify.com/playlist/... → downloads playlist
+  
   https://open.spotify.com/track/... → downloads single track
 
   liked → downloads your Liked Songs
@@ -65,13 +67,18 @@ After that, just enter a Spotify link or one of these keywords:
 Downloads are saved in:
 
   ~/PodSpotDownloads/Artist - Album/
+  
   01 - Song Title.m4a
+  
   02 - Another Track.m4a
+  
 
 
 
 ---
 ## 👨‍💻 Author : @_altamate_
+
+
 ---
 ## ⚖️ Disclaimer
 
