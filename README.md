@@ -22,7 +22,7 @@ Perfect for syncing your Spotify library to old iPods or Apple devices.
 
 1. Clone this repo:
    
-      git clone https://github.com/yourname/podspot.git
+      git clone https://github.com/Prajee7/podspot.git
       cd podspot
 
 2. Install requirements:
